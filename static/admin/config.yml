@@ -10,9 +10,11 @@ collections:
     label: 'Blog'
     folder: 'src/posts'
     create: true
-    slug: 'index'
-    media_folder: ''
-    public_folder: ''
+    slug: "{{year}}-{{month}}-{{day}}-{{fields.slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    media_folder: static/img # Media files will be stored in the repo under images/uploads
+    public_folder: /img
+    site_url: https://eloquent-meitner-71e901.netlify.app
+    display_url: https://eloquent-meitner-71e901.netlify.app
     path: '{{title}}/index'
     editor:
       preview: false
