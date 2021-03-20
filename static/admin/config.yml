@@ -11,7 +11,7 @@ collections:
     folder: 'src/posts'
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{fields.slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    media_folder: static/img/uploads # Media files will be stored in the repo under images/uploads
+    media_folder: src/assets/uploads # Media files will be stored in the repo under src/assets/uploads
     site_url: https://eloquent-meitner-71e901.netlify.app
     display_url: https://eloquent-meitner-71e901.netlify.app
     path: '{{title}}/index'
