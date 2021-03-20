@@ -7,6 +7,72 @@ author: David Erickson
 category: Music
 readTime: 4
 ---
-<h1>This is the first post Headline<h1/>
+import { Link } from "gatsby"
 
-<h4>element</h4>
+
+
+\_I'm baby humblebrag neutra taiyaki af vice bespoke locavore fanny pack\_ ramps vexillologist succulents. Normcore etsy pour-over adaptogen skateboard fashion axe, bushwick food truck beard lumbersexual master cleanse actually deep v. \*\*Retro cardigan raw denim franzen kickstarter you probably haven't heard of them literally\*\* aesthetic snackwave four dollar toast. Keffiyeh synth umami, helvetica yr flexitarian jean shorts banh mi cardigan leggings letterpress paleo intelligentsia narwhal.
+
+
+
+<blockquote>
+
+  I'm baby tumblr fanny pack tousled seitan. Man bun shaman yr, bushwick fam
+
+  hammock williamsburg kombucha keytar VHS. Chambray street art authentic,
+
+</blockquote>
+
+
+
+<blockquote display="info">
+
+  I'm baby tumblr fanny pack tousled seitan. Man bun shaman yr, bushwick fam
+
+  hammock williamsburg kombucha keytar VHS. Chambray street art authentic,
+
+</blockquote>
+
+
+
+\`\``jsx
+
+import React from "react"
+
+
+
+const Counter = () => {
+
+  const \[count, setCount] = React.useState(0)
+
+  return (
+
+\    <section className="counter">
+
+\    <h4>show some love to MDX</h4>
+
+\    <h4>likes {count}</h4>
+
+\    <button className="btn btn-danger" onClick={() => setCount(count + 1)}>
+
+\    i like mdx
+
+\    </button>
+
+\    </section>
+
+  )
+
+}
+
+export default Counter
+
+\`\``
+
+
+
+<Link to="/posts" className="btn center-btn">
+
+  all posts
+
+</Link>
